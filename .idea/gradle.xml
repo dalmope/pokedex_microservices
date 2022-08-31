@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/EurekaServer" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../Gradle/gradle-7.5.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/EurekaServer" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Gateway" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../Gradle/gradle-7.5.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Gateway" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Image-Microservice" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../Gradle/gradle-7.5.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Image-Microservice" />
+            <option value="$PROJECT_DIR$/Image-Microservice/applications/app-service" />
+            <option value="$PROJECT_DIR$/Image-Microservice/domain/model" />
+            <option value="$PROJECT_DIR$/Image-Microservice/domain/usecase" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Pokemon-Microservice" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../Gradle/gradle-7.5.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Pokemon-Microservice" />
+            <option value="$PROJECT_DIR$/Pokemon-Microservice/applications/app-service" />
+            <option value="$PROJECT_DIR$/Pokemon-Microservice/domain/model" />
+            <option value="$PROJECT_DIR$/Pokemon-Microservice/domain/usecase" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
