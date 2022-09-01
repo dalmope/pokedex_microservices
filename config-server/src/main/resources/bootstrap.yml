@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/dalmope/pokedex_microservices.git
+            - '*/pokedex-microservices-server.yml'
+          search-paths: config-data
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
+  security:
+    user:
+      name: ${GIT_USER}
+      password: s3cr3t
