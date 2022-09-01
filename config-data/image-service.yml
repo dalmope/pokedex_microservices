@@ -17,5 +17,5 @@ spring:
       port: 27017
       database: pokedex
 
-appDescription: "Pokedex API"
-appVersion: "1.0.0"
+  profiles:
+    active: dev

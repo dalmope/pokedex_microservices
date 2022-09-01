@@ -15,8 +15,3 @@ spring:
     user:
       name: root
       password: s3cr3t
-
-
-
-  profiles:
-    active: native
