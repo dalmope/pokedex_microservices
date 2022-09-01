@@ -17,5 +17,7 @@ spring:
       port: 27017
       database: pokedex
 
-  profiles:
-    active: dev
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8099/eureka/

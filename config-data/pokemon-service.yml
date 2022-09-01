@@ -17,5 +17,10 @@ spring:
       port: 27017
       database: pokedex
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8099/eureka/
+
 appDescription: "Pokedex API"
 appVersion: "1.0.0"
