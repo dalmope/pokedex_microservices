@@ -1,4 +1,4 @@
-package com.example.pokedex_hexagonal.infrastructure.out.mongodb.entity;
+package com.example.pokedex_hexagonal.infrastructure.out.jpa.entity;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

@@ -1,6 +1,5 @@
-package com.example.pokedex_hexagonal.infrastructure.out.jpa.mapper;
+package com.example.pokedex_hexagonal.infrastructure.out.mongodb.mapper;
 
-import com.example.pokedex_hexagonal.domain.model.Pokemon;
 import com.example.pokedex_hexagonal.infrastructure.out.jpa.entity.PokemonEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;

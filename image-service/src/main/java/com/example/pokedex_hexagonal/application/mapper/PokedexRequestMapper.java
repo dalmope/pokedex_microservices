@@ -2,8 +2,6 @@ package com.example.pokedex_hexagonal.application.mapper;
 
 import com.example.pokedex_hexagonal.application.dto.PokedexRequest;
 import com.example.pokedex_hexagonal.domain.model.Photo;
-import com.example.pokedex_hexagonal.domain.model.Pokemon;
-import com.example.pokedex_hexagonal.domain.model.Type;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Named;

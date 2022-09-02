@@ -5,9 +5,8 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class PokedexResponse {
+public class PhotoRequest {
     private Long number;
     private String name;
-    private TypeDto types;
     private String photo;
 }

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: pokemon-service
+    name: image-service
 
   cloud:
     config:

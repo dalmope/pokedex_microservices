@@ -1,7 +1,6 @@
 package com.example.pokedex_hexagonal.infrastructure.input.rest;
 
 import com.example.pokedex_hexagonal.application.dto.PokedexRequest;
-import com.example.pokedex_hexagonal.application.dto.PokedexResponse;
 import com.example.pokedex_hexagonal.application.handler.IPokedexHandler;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;

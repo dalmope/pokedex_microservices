@@ -1,10 +1,6 @@
-package com.example.pokedex_hexagonal.infrastructure.out.jpa.adapter;
+package com.example.pokedex_hexagonal.infrastructure.out.mongodb.adapter;
 
-import com.example.pokedex_hexagonal.domain.model.Pokemon;
-import com.example.pokedex_hexagonal.domain.spi.IPokemonPersistencePort;
 import com.example.pokedex_hexagonal.infrastructure.exception.NoDataFoundException;
-import com.example.pokedex_hexagonal.infrastructure.exception.PokemonAlreadyExistsException;
-import com.example.pokedex_hexagonal.infrastructure.exception.PokemonNotFoundException;
 import com.example.pokedex_hexagonal.infrastructure.out.jpa.entity.PokemonEntity;
 import com.example.pokedex_hexagonal.infrastructure.out.jpa.mapper.PokemonEntityMapper;
 import com.example.pokedex_hexagonal.infrastructure.out.jpa.repository.IPokemonRepository;

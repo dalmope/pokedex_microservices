@@ -4,7 +4,7 @@ import com.example.pokedex_hexagonal.domain.model.Photo;
 
 import java.util.List;
 
-public interface IPhotoPersistencePort {
+public interface IPhotoServicePort {
     Photo savePhoto(Photo photo);
 
     List<Photo> getAllPhotos();

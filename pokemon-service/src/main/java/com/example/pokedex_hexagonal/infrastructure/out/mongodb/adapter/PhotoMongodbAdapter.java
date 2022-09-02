@@ -4,7 +4,6 @@ import com.example.pokedex_hexagonal.domain.model.Photo;
 import com.example.pokedex_hexagonal.domain.spi.IPhotoPersistencePort;
 import com.example.pokedex_hexagonal.infrastructure.exception.NoDataFoundException;
 import com.example.pokedex_hexagonal.infrastructure.exception.PhotoNotFoundException;
-import com.example.pokedex_hexagonal.infrastructure.out.mongodb.entity.PhotoEntity;
 import com.example.pokedex_hexagonal.infrastructure.out.mongodb.mapper.PhotoEntityMapper;
 import com.example.pokedex_hexagonal.infrastructure.out.mongodb.repository.IPhotoRepository;
 import lombok.RequiredArgsConstructor;
